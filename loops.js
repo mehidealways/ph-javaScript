@@ -6,7 +6,7 @@
 // }
 
 // BASIC LOOP
-
+ 
 const fruits = ['orange', 'banana', 'apple', 'jackfruit', 'Watermelon'];
 
 for (const fruit of fruits) {

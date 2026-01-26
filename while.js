@@ -4,7 +4,6 @@
 // }
 // console.log('somethings new is cooking')
 
-
 // This is while looop
 
 // let num = 0;
@@ -27,7 +26,6 @@
 //   console.log(num);
 //   num++;
 // }
-
 
 // Sum with while loop
 
@@ -54,7 +52,7 @@
 
 // for (let num = 0; num < 5; num++) {
 //   console.log(num);
-  
+
 // }
 
 // odd even
@@ -69,9 +67,47 @@
 // }
 
 // sum with for loop
-let sum = 0;
-for (let i = 11; i <= 20; i++) {
-  sum = sum + i;
-  console.log(i);
+// let sum = 0;
+// for (let i = 11; i <= 20; i++) {
+//   sum = sum + i;
+//   console.log(i);
+// }
+// console.log('some of number from 11 to 20 is:',sum);
+
+//how to get odd number using for loop
+
+// for (let i = 0; i < 20; i++){
+//   if (i % 2 === 1) {
+//     console.log(i);
+//   }
+// }
+
+// give me the list numbers btween 1 to 30 divisible by5
+
+// for (let i = 1; i < 30; i++){
+//   if (i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// for (let i = 1; i < 30; i++) {
+//   if (i % 3 === 0 || i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
+// for (let i = 1; i <= 30; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// give me the sum numbers btween 1 to 20 divisible by 3
+
+let total = 30;
+for (let i = 1; i <= 20; i++){
+  if (i % 3 === 0) {
+    console.log(i);
+    total = total + i
+  }
 }
-console.log('some of number from 11 to 20 is:',sum);
+console.log('Total of the numbers:',total);
