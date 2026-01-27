@@ -16,11 +16,13 @@
  const sentence ='I am a good and hardworking person ';
 //  console.log(sentence.split(' '));
 //  console.log(sentence.split('a'));
-// const friendsStr = 'Rahim,karim,selim,jelim,lahim,sahin';
-// const friends = friendsStr.split(',');
+const friendsStr = 'Rahim,karim,selim,jelim,lahim,sahin';
+const friends = friendsStr.split(',');
 // console.log(friends);
 
-// const realFriend = [ 'Rahim', 'karim', 'selim', 'jelim', 'lahim', 'sahin' ];
+const realFriend = [ 'Rahim', 'karim', 'selim', 'jelim', 'lahim', 'sahin' ];
+// console.log(realFriend.join(''));
+// console.log(realFriend.join('|'));
 // console.log(realFriend.join('-'));
 
 
@@ -36,7 +38,7 @@ const fullName2 = first.concat(' ').concat(last)
 // console.log(fullName2);
 
 // .includes() method
-console.log(last.includes('s'));
+// console.log(last.includes('s'));
 
 
 
