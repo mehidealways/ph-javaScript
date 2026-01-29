@@ -9,8 +9,8 @@
 // let num = 0;
 // while (num < 5) {
 //   console.log('Looooooooooping' num);
-//   // num = num + 1;
-//   // num += 1;
+  // num = num + 1;
+  // num += 1;
 //   num++;
 // }
 
@@ -61,7 +61,7 @@
 //   console.log(i);
 // }
 
-// fing even number
+// find even number
 // for (let i = 0; i <= 20; i=i+2){
 //   console.log(i);
 // }
@@ -95,6 +95,7 @@
 //     console.log(i);
 //   }
 // }
+
 // for (let i = 1; i <= 30; i++) {
 //   if (i % 3 === 0 && i % 5 === 0) {
 //     console.log(i);
@@ -103,11 +104,51 @@
 
 // give me the sum numbers btween 1 to 20 divisible by 3
 
-let total = 30;
-for (let i = 1; i <= 20; i++){
-  if (i % 3 === 0) {
-    console.log(i);
-    total = total + i
-  }
+// let total = 30;
+// for (let i = 1; i <= 20; i++){
+//   if (i % 3 === 0) {
+//     console.log(i);
+//     total = total + i
+//   }
+// }
+// console.log('Total of the numbers:',total);
+
+// for(let x =1; x <=10; x++){
+//   if(x %2 ===0){
+//     console.log(x);
+//   }
+
+// }
+// let sum = 0;
+// for(let y =11; y <=20; y++){
+//   sum = sum + y
+//   console.log(y);
+// }
+// console.log('sub of number from 11 to 20:',sum);
+
+
+
+// // <----- reverse way while loop----->
+
+// let n = 10;
+// while (n >=0){
+//   console.log(n);
+//   n--;
+// }
+// const array1 =[1,2,3,4,5]
+// const array =[6,7,8,9,1]
+// let result =[]
+
+// for(const item of array1 + array ){
+//   result.push(item)
+// }
+// console.log(result);
+
+const numbers = ['Tom', 'Tim', 'Tin', 'Tik'] 
+
+let result ="";
+for(const x of numbers){
+  
+  result += x;
 }
-console.log('Total of the numbers:',total);
+console.log(result);

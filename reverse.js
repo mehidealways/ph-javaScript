@@ -3,10 +3,10 @@
 
 const number =[1,2,3,4,5,6,7,8,9];
 // console.log(number);
-
 // const reversed = number.reverse();
 
 // console.log(reversed);
+
 
 const rev_numbers=[];
 
@@ -18,7 +18,7 @@ for (const num of number){
 
 
 const reversed_numbers = [];
-for(let i =0; i<number.length;i++){
+for(let i =0; i<number.length; i++){
     const num = number[i];
     // reversed_numbers.unshift(num)
 }
